@@ -1,2 +1,7 @@
 mountpoints:
-  /: https://drive.google.com/drive/u/0/folders/1MGzOt7ubUh3gu7zhZIPb7R7dyRzG371j
+  /: https://drive.google.com/drive/u/1/folders/1vTj9lUjP5BoR3PAZsgWkmY181MWQ3w74
+
+
+  # og path for the mountpoint: from adobe
+  # mountpoints:
+  # /: https://drive.google.com/drive/u/0/folders/1MGzOt7ubUh3gu7zhZIPb7R7dyRzG371j
