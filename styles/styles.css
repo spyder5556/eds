@@ -256,3 +256,15 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+/* new css */
+
+main .orange{
+  background-color: orange;
+}
+main .red{
+  background-color: red;
+}
+main .white-text{
+  color: white;
+}
