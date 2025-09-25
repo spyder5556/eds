@@ -25,7 +25,7 @@ async function createSelectMap(jsonURL){
     const { pathname } = new URL(jsonURL);
 
     const resp = await fetch(pathname);
-    optionsMap.set("all","All Countries");optionsMap.set("asia","Asia");optionsMap.set("europe","Europe");optionsMap.set("africa","Africa");optionsMap.set("america","America");optionsMap.set("australia","Australia");
+    optionsMap.set("all","All Countries");optionsMap.set("europe","Europe");
     const select=document.createElement('select');
     select.id = "region";
     select.name="region";
