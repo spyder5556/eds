@@ -5,23 +5,30 @@
       "id": "asset-library",
       "title": "AEM Assets",
       "environments": [
-      "edit","dev"
+        "edit",
+        "dev"
       ],
       "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
       "isPalette": true,
       "passConfig": true,
       "passReferrer": true,
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
-    },  
+    },
     {
       "id": "google-assist",
       "title": "Google Assist",
-      "environments": [ "edit","dev", "preview", "live", "prod"],
+      "environments": [
+        "edit",
+        "dev",
+        "preview",
+        "live",
+        "prod"
+      ],
       "url": "https://www.google.com/search?q=edge+delivery+services",
       "isPalette": true,
-      "passConfig":true,
+      "passConfig": true,
       "passReferrer": true,
-      "excludePaths":[
+      "excludePaths": [
         "**/fr/**"
       ],
       "includePaths": [
@@ -39,7 +46,13 @@
       "containerId": "tools",
       "id": "localize",
       "title": "Localize",
-      "environments": [ "edit","dev", "preview", "live", "prod" ],
+      "environments": [
+        "edit",
+        "dev",
+        "preview",
+        "live",
+        "prod"
+      ],
       "url": "https://www.microsoft.com/en-us/translator/business/translator-api/",
       "passReferrer": true
     },
@@ -47,7 +60,13 @@
       "containerId": "tools",
       "id": "youtube",
       "title": "YouTube",
-      "environments": [ "edit","dev", "preview", "live", "prod" ],
+      "environments": [
+        "edit",
+        "dev",
+        "preview",
+        "live",
+        "prod"
+      ],
       "url": "https://www.youtube.com/@AEMGeeks",
       "passReferrer": true
     },
@@ -55,12 +74,31 @@
       "containerId": "tools",
       "id": "contactus",
       "title": "Contact US",
-      "environments": [ "edit","dev", "preview", "live", "prod" ],
+      "environments": [
+        "edit",
+        "dev",
+        "preview",
+        "live",
+        "prod"
+      ],
       "url": "/tools/contactus/contactus.html?user=aem-geeks",
       "isPalette": true,
       "passConfig": false,
-      "includePaths": [ "**/:x**" ],
+      "includePaths": [
+        "**/:x**"
+      ],
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:500px; height: calc(100vh - 60px)"
+    },
+    {
+      "id": "library",
+      "title": "Block Library",
+      "environments": [
+        "edit"
+      ],
+      "url": "/tools/sidekick/library.html",
+      "includePaths": [
+        "**.docx**"
+      ]
     }
   ]
-} 
+}
