@@ -2,6 +2,17 @@
   "project": "Geeks Edge Deliver Services",
   "plugins": [
     {
+      "containerId": "tools",
+      "id": "contactus",
+      "title": "Contact US",
+      "environments": [ "edit","dev", "preview", "live", "prod" ],
+      "url": "/tools/contactus/contactus.html?user=aem-geeks",
+      "isPalette": true,
+      "passConfig": false,
+      "includePaths": [ "**/:x**" ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:500px; height: calc(100vh - 60px)"
+    },
+    {
       "id": "asset-library",
       "title": "AEM Assets",
       "environments": [
